@@ -1,0 +1,9 @@
+// demo: sintaxis completa y errores
+NOBLE PI: GRAMO = 3.14e0;
+SINTETIZA suma(a: MOL, b: MOL) -> MOL { PRODUCTO a MAS b; }
+ATOMO s: MOLECULA = "h\to\"2";
+REACCIONA (x > 0x1F && !y) { x >>= 1; } INERTE { x <-> y; }
+CENTRIFUGA i EN DESDE 0 HASTA 10 { EMITE( i ^ 2 << 1 ); }
+ATOMO t = a > b ? 1 : 0; /* c */ a+++b;
+# "mal \q" "abierta
+@ /* sin cerrar
